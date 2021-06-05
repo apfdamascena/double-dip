@@ -55,6 +55,52 @@
     cursor: pointer;
 }
 
+.double-dip-container main .left-principal-card {
+    grid-area: left-principal-card;
+}
+
+.double-dip-container main .left-first-card {
+    grid-area: left-first-card;
+
+}
+
+.double-dip-container main .left-second-card {
+    grid-area: left-second-card;
+}
+
+.double-dip-container main .right-principal-card {
+    grid-area: right-principal-card;
+}
+
+.double-dip-container main .right-first-card {
+    grid-area: right-first-card;
+}
+
+.double-dip-container main .right-second-card {
+    grid-area: right-second-card;
+}
+
+.double-dip-container main {
+    display: grid;
+    width: 80%;
+    margin: 8px auto;
+    gap: 3rem;
+
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+
+    grid-template-areas: 
+        "left-principal-card left-first-card right-principal-card right-first-card"
+        "left-principal-card left-second-card right-principal-card right-second-card";
+}
+
+
+
+
+
+
+
+
 
 
 
