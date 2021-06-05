@@ -55,18 +55,8 @@
     cursor: pointer;
 }
 
-.double-dip-container main {
-
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    justify-content: center;
-    align-items: center;
-    grid-column-gap: 30px;
-}
 
 
-.double-dip-container main section {
 
-    height: 320px;
-    background: pink;
-}
+
+
