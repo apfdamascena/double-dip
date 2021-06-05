@@ -1,0 +1,72 @@
+.double-dip-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.double-dip-container header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 3rem 6.5rem 10rem 5.6rem;
+    margin: 0 auto;
+    width: 100%;
+
+    background: linear-gradient(180deg, var(--FIRST-HEADER-COLOR) 44.17%, var(--SECOND-HEADER-COLOR) 100%);
+}
+
+.double-dip-container header .logo {
+    width: 19.3rem;
+    height: 7.4rem;
+
+    margin-right: 3rem;
+}
+
+.double-dip-container .search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background: white;
+    width: 32rem;
+    border-radius: 20px;
+}
+
+.double-dip-container .search-bar input[type=text] {
+
+    font-size: 1.6rem;
+    float: left;
+    width: 89%;
+    padding: 0.2rem 0rem 0.2rem 1.6rem;
+    outline: none;
+    border: none;
+
+    position: relative;
+    left: 0.8rem;
+
+}
+
+.double-dip-container .search-bar img {
+    float: left;
+    border-left: none;
+    margin-left: 0.8rem;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+
+.double-dip-container main {
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 30px;
+}
+
+
+.double-dip-container main section {
+
+    height: 320px;
+    background: pink;
+}

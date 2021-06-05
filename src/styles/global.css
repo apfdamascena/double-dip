@@ -1,0 +1,30 @@
+:root {
+    --BACKGROUND: #E5E5E5;
+    --TEXT: #8A8585;
+    --DARK-TEXT: #000000;
+    --MEDIUM-TEXT: #404040;
+    --LIGHT-TEXT: #8D8D8D;
+    --FIRST-HEADER-COLOR: #FF99C4;
+    --SECOND-HEADER-COLOR: rgba(255,255,255,0.12);
+    --FOOTER-COLOR: rgba(244,155,140,0.56);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html, body {
+    height: 100vh;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input{
+    font-family: 'Montserrat', sans-serif;
+}
