@@ -44,7 +44,6 @@
 
     position: relative;
     left: 0.8rem;
-
 }
 
 .double-dip-container .search-bar img {
@@ -82,7 +81,7 @@
 
 .double-dip-container main {
     display: grid;
-    width: 80%;
+    width: 85%;
     margin: 8px auto;
     gap: 3rem;
 
@@ -92,7 +91,138 @@
     grid-template-areas: 
         "left-principal-card left-first-card right-principal-card right-first-card"
         "left-principal-card left-second-card right-principal-card right-second-card";
+
+    margin-top: 8px;
 }
+
+.double-dip-container main .mini-box,
+.double-dip-container main .box {
+    box-shadow: 0px 4px 4px var(--BOX-SHADOW);
+    background: var(--BOX-BACKGROUND);
+    border-radius: 20px;
+
+}
+
+.double-dip-container main .mini-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 22rem;
+    height: 21rem;
+}
+
+.double-dip-container main .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.double-dip-container main .box img {
+    margin-top: 10px;
+}
+
+.double-dip-container main .box .title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-align: center;
+    margin-top: 1.6rem;
+}
+
+.double-dip-container main .box .title {
+    width: 26rem;
+    text-align: center;
+}
+
+.double-dip-container main .box .description {
+    margin-top: 1rem;
+}
+
+.double-dip-container main .box .description,
+.double-dip-container main .box .weight {
+    font-size: 1.4rem;
+    font-style: normal;
+    line-height: 1.95rem;
+    text-align: center;
+    color: var(--TEXT);
+}
+
+.double-dip-container main .box .price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-align: center;
+
+    margin-top: 1.6rem;
+}
+
+
+.double-dip-container footer .footer-logo {
+    grid-area: footer-logo;
+}
+
+.double-dip-container footer .phone {
+    grid-area: phone;
+}
+
+.double-dip-container footer .email {
+    grid-area: email;
+
+}
+
+.double-dip-container footer .instagram {
+    grid-area: instagram;
+}
+
+.double-dip-container footer .made-with {
+    grid-area: made-with;
+}
+
+.double-dip-container footer {
+    display: grid;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2rem 0rem 2rem 0rem;
+
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+
+    grid-template-areas:
+        "footer-logo . phone"
+        "footer-logo . email"
+        ". made-with instagram"
+    ;
+}
+
+.double-dip-container footer .phone,
+.double-dip-container footer .instagram,
+.double-dip-container footer .email{
+    display: flex;
+    align-items: center;
+}
+
+.double-dip-container footer .footer-logo,
+.double-dip-container footer .phone,
+.double-dip-container footer .email,
+.double-dip-container footer .instagram,
+.double-dip-container footer .made-with {
+    justify-self: center;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

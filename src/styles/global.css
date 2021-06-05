@@ -7,6 +7,8 @@
     --FIRST-HEADER-COLOR: #FF99C4;
     --SECOND-HEADER-COLOR: rgba(255,255,255,0.12);
     --FOOTER-COLOR: rgba(244,155,140,0.56);
+    --BOX-SHADOW: rgba(0,0,0,0.25);
+    --BOX-BACKGROUND: #FFFEFE;
 }
 
 * {
