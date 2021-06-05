@@ -79,10 +79,16 @@
     grid-area: right-second-card;
 }
 
+.double-dip-container main .left-principal-card img,
+.double-dip-container main .right-principal-card img{
+    width: 27rem;
+    height: 27rem;
+}
+
 .double-dip-container main {
     display: grid;
     width: 85%;
-    margin: 8px auto;
+    margin: 0.2rem auto;
     gap: 3rem;
 
     grid-template-columns: repeat(4,1fr);
@@ -92,7 +98,7 @@
         "left-principal-card left-first-card right-principal-card right-first-card"
         "left-principal-card left-second-card right-principal-card right-second-card";
 
-    margin-top: 8px;
+    margin-bottom: 8rem;
 }
 
 .double-dip-container main .mini-box,
@@ -100,8 +106,12 @@
     box-shadow: 0px 4px 4px var(--BOX-SHADOW);
     background: var(--BOX-BACKGROUND);
     border-radius: 20px;
-
 }
+
+.double-dip-container main .mini-box img {
+    width: 15.6rem;
+    height: 15.6rem;
+} 
 
 .double-dip-container main .mini-box {
     display: flex;
@@ -120,7 +130,7 @@
 }
 
 .double-dip-container main .box img {
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 
 .double-dip-container main .box .title {
@@ -180,23 +190,30 @@
 
 .double-dip-container footer .made-with {
     grid-area: made-with;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.7rem;
+    line-height: 2.4rem;
+    text-align: center;
 }
 
 .double-dip-container footer {
     display: grid;
-    width: 90%;
+    width: 100%;
     align-items: center;
+    gap: 1.6rem;
+
     margin: 0 auto;
     padding: 2rem 0rem 2rem 0rem;
 
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
-
     grid-template-areas:
         "footer-logo . phone"
         "footer-logo . email"
-        ". made-with instagram"
-    ;
+        ". made-with instagram";
+
+    background: var(--FOOTER-COLOR);
 }
 
 .double-dip-container footer .phone,
@@ -204,6 +221,9 @@
 .double-dip-container footer .email{
     display: flex;
     align-items: center;
+    color: var(--MEDIUM-TEXT);
+    font-weight: 500;
+    font-size: 1.4rem;
 }
 
 .double-dip-container footer .footer-logo,
@@ -213,6 +233,30 @@
 .double-dip-container footer .made-with {
     justify-self: center;
 }
+
+.double-dip-container footer .email img ,
+.double-dip-container footer .instagram img {
+    margin-right: 2rem;
+}
+
+.double-dip-container footer .phone p {
+    margin-left: 2.4rem;
+}
+
+.double-dip-container footer .phone {
+    position: relative;
+    right: 2rem;
+}
+
+.double-dip-container footer .email {
+    position: relative;
+    left: 1.2rem;
+} 
+
+
+
+
+
 
 
 
