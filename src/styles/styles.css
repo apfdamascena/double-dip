@@ -9,6 +9,8 @@
     align-items: center;
     justify-content: space-between;
 
+    height: 30vh;
+
     padding: 3rem 6.5rem 10rem 5.6rem;
     margin: 0 auto;
     width: 100%;
@@ -37,7 +39,7 @@
 
     font-size: 1.6rem;
     float: left;
-    width: 89%;
+    width: 89vw;
     padding: 0.2rem 0rem 0.2rem 1.6rem;
     outline: none;
     border: none;
@@ -87,12 +89,14 @@
 
 .double-dip-container main {
     display: grid;
-    width: 85%;
-    margin: 0.2rem auto;
+    justify-content: center;
+    width: 100%;
     gap: 3rem;
 
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2,1fr);
+    margin-top: 4rem;
+
+    grid-template-columns: auto 22rem auto 22rem;
+    grid-template-rows: repeat(2,auto);
 
     grid-template-areas: 
         "left-principal-card left-first-card right-principal-card right-first-card"
@@ -173,6 +177,8 @@
 
 .double-dip-container footer .footer-logo {
     grid-area: footer-logo;
+    width: 19.2rem;
+    height: 7.4rem;
 }
 
 .double-dip-container footer .phone {
@@ -199,7 +205,8 @@
 
 .double-dip-container footer {
     display: grid;
-    width: 100%;
+    width: 100vw;
+    height: 25vh;
     align-items: center;
     gap: 1.6rem;
 

@@ -1,6 +1,71 @@
 
-@media (min-width: 768px) and (max-width: 1158px){
+@media (min-width: 844px) and (max-width: 1158px){
     html {
-        font-size: 44%;
+        font-size: 45%;
+    }
+}
+
+@media (max-width: 843px ){
+    html {
+        font-size: 42%;
+    }
+
+    .double-dip-container main {
+        grid-template-columns: auto 9rem auto;
+        grid-template-rows: repeat(4,1fr);
+
+        grid-template-areas: 
+        "left-principal-card left-principal-card left-first-card"
+        "left-principal-card left-principal-card left-second-card"
+        "right-first-card right-principal-card right-principal-card"
+        "right-second-card right-principal-card right-principal-card";
+    }
+
+    .double-dip-container main .mini-box {
+        justify-self: flex-start;
+    }
+
+    .double-dip-container main .box {
+        width: 34rem;
+        justify-self: flex-start;
+    }
+
+}
+
+@media (min-width: 426px ) and (max-width: 843px){
+
+    .double-dip-container footer .email img ,
+    .double-dip-container footer .instagram img {
+        margin-right: 0.6rem;
+    }
+
+    .double-dip-container footer .phone p {
+        margin-left: 1.5rem;
+    }
+}
+
+@media (max-width: 425px){
+    html {
+        font-size: 31%;
+    }
+
+    .double-dip-container footer {
+
+        grid-template-columns: repeat(1,auto);
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas:
+            "phone"
+            "email"
+            "instagram"
+            "."
+            "made-with";
+    }
+
+    .double-dip-container footer .footer-logo{
+        display: none;
+    }
+
+    .double-dip-container footer .phone {
+        margin-top: 2rem;
     }
 }
