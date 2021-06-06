@@ -68,4 +68,18 @@
     .double-dip-container footer .phone {
         margin-top: 2rem;
     }
+
+    .double-dip-container .search-bar input {
+        display: none;
+    }
+
+    .double-dip-container .search-bar img {
+        width: 27px;
+        height: 27px;
+    }
+
+    .double-dip-container .search-bar {
+        width: 32px;
+        height: 32px;
+    }
 }
