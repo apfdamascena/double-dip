@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="./src/assets/header-logo.svg" alt="Logo" width="800" height="380">
+    <img src="./assets/header-logo.svg" alt="Logo" width="800" height="380">
   </a>
 
   <h3 align="center">Double Dip</h3>
