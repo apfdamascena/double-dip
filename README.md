@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://apfdamascena.github.io/double-dip/">
     <img src="./assets/header-logo.svg" alt="Logo" width="800" height="380">
   </a>
 
@@ -52,6 +52,10 @@ This site was created during the selection process of the junior citi company. I
 ## About The Project
 
 During the company's junior city selection process, aspirants were encouraged to challenge themselves. With that, a development challenge was proposed by the development team. Given the mockup made in figma, we should replicate it in the web and mobile versions.
+
+<strong> You can see the website here </strong> https://apfdamascena.github.io/double-dip/
+<strong> or you can click on the reademe logo </strong>
+
 
 ### Built With
 
