@@ -25,10 +25,10 @@
     margin-right: 3rem;
 }
 
-
 .double-dip-container header .ice-cream-button img{
     width: 15rem;
     height: 9rem;
+    cursor: pointer;
 }
 
 .double-dip-container .search-bar {
@@ -264,32 +264,4 @@
 .double-dip-container footer .email {
     position: relative;
     left: 1.0rem;
-} 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
