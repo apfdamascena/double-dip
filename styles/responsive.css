@@ -10,6 +10,37 @@
         font-size: 42%;
     }
 
+    .double-dip-container header .logo {
+        grid-area: logo;
+    }
+
+    .double-dip-container header #ice-cream-blue {
+        grid-area: ice-cream-blue;
+    }
+
+    .double-dip-container header #ice-cream-orange {
+        grid-area: ice-cream-orange;
+    }
+
+    .double-dip-container header #ice-cream-pink {
+        grid-area: ice-cream-pink;
+    }
+
+    .double-dip-container header .search-bar {
+        grid-area: search-bar;
+        width: 28rem;
+    }
+
+    .double-dip-container header {
+        display: grid;
+        grid-template-columns: repeat(5, 20%);
+        grid-template-rows: repeat(2, 50%);
+
+        grid-template-areas:
+        "logo logo . search-bar search-bar"
+        ". ice-cream-blue ice-cream-pink ice-cream-orange .";
+    }
+
     .double-dip-container main {
         grid-template-columns: auto 9rem auto;
         grid-template-rows: repeat(4,1fr);
@@ -40,6 +71,19 @@
 
     .double-dip-container footer .phone p {
         margin-left: 1.5rem;
+    }
+
+    .double-dip-container .ice-cream-button img {
+        width: 12rem;
+        height: 7rem;
+    }
+}
+
+@media(max-width: 650px){
+    .double-dip-container header .ice-cream-button img {
+        width: 13rem;
+        height: 7rem;
+        margin-top: 16px;
     }
 }
 
