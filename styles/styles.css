@@ -25,6 +25,11 @@
     margin-right: 3rem;
 }
 
+.double-dip-container header .ice-cream-button img{
+    width: 15rem;
+    height: 9rem;
+}
+
 .double-dip-container .search-bar {
     display: flex;
     flex-direction: row;
