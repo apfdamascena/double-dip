@@ -1,10 +1,9 @@
-<svg width="156" height="97" viewBox="0 0 156 97" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect y="51" width="156" height="46" rx="20" fill="#ED5885"/>
+<svg width="82" height="84" viewBox="0 0 82 84" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g filter="url(#filter0_d)">
-<rect x="41" width="74" height="74" fill="url(#pattern0)"/>
+<rect x="4" width="74" height="74" fill="url(#pattern0)"/>
 </g>
 <defs>
-<filter id="filter0_d" x="37" y="0" width="82" height="84" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d" x="0" y="0" width="82" height="84" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
 <feOffset dy="6"/>

@@ -25,6 +25,22 @@
     margin-right: 3rem;
 }
 
+.double-dip-container header .ice-cream-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.double-dip-container header .ice-cream-button #icon{
+    position: relative;
+    top: 6rem;
+}
+
+.double-dip-container header .ice-cream-button .up {
+    top: 5rem !important;
+}
+
 .double-dip-container header .ice-cream-button img{
     width: 15rem;
     height: 9rem;
